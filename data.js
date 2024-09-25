@@ -52,7 +52,7 @@ function displayProducts(){
         const card = document.createElement('div');
         card.innerHTML = 
         `
-        <div class="card bg-base-100 w-[350px] mx-auto md:w-96 shadow-xl h-full">
+        <div class="card bg-base-100 border-solid w-[350px] mx-auto md:w-96  border-2 h-full">
             <figure class="px-10 pt-10">
               <img
                 src="${item.img}"
